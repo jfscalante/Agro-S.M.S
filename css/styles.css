@@ -6,6 +6,21 @@
     margin: 0;
     padding: 0;
 }
+#menuBarra{
+    background-color: transparent;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000;  
+}
+/*color barra de navegacio*/
+#menuBarra ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+
 
 /* colores predeterminados */
 :root {
