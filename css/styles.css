@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* colores predeterminados */
+:root {
+    --bg-color: #1c1c1c;
+    --font-color: #fff;
+    --secondary-bg-color: #00ff37;
+    --font: "Poppins";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* barra de navegacion  */
+
+
+
+/* Section inicio */
+
+.inicio-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.691)), url('/img/natural_plants.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    color: #ffffff;
+}
