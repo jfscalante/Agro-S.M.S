@@ -16,7 +16,11 @@
 }
 /*color barra de navegacio*/
 #menuBarra ul li a {
+<<<<<<< HEAD
     color: white; 
+=======
+    color: white;
+>>>>>>> 80732fd455111e4cf9bd309fc64c7b0efe575312
     text-decoration: none;
   }
 
