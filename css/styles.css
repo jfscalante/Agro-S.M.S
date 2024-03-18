@@ -16,7 +16,7 @@
 }
 /*color barra de navegacio*/
 #menuBarra ul li a {
-    color: white; /* Set the color of the links to white */
+    color: white; 
     text-decoration: none;
   }
 
