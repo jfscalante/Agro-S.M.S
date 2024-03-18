@@ -16,7 +16,7 @@
 }
 /*color barra de navegacio*/
 #menuBarra ul li a {
-    color: white;
+    color: white; /* Set the color of the links to white */
     text-decoration: none;
   }
 
@@ -59,3 +59,28 @@ html{
     font-size: 18px;
     color: #ffffff;
 }
+
+/*estilos para las cards*/
+.card {
+    transition: transform .3s; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  .card a {
+    color: #f2f8ff; 
+  }
+  
+  .card a:hover {
+    color: #000000; 
+    text-decoration: none; 
+  }
+  
+  .card .card-img-top {
+    transition: transform .3s;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1); 
+  }
