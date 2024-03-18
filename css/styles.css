@@ -16,11 +16,7 @@
 }
 /*color barra de navegacio*/
 #menuBarra ul li a {
-<<<<<<< HEAD
-    color: white; 
-=======
     color: white;
->>>>>>> 80732fd455111e4cf9bd309fc64c7b0efe575312
     text-decoration: none;
   }
 
@@ -74,7 +70,13 @@ html{
   .card a {
     color: #f2f8ff; 
   }
-  
+  .card {
+    margin-bottom: 20px;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
   .card a:hover {
     color: #000000; 
     text-decoration: none; 

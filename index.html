@@ -54,105 +54,43 @@
 </section>
 
 <!-- cards -->
-<div class="container">
+<div class="container mt-5">
   <div class="row">
     <div class="col-md-4">
-      <div class="card">
-        <img src="card1.jpg" class="card-img-top" alt="Card 1">
-        <div class="card-body">
-          <h5 class="card-title">Card 1</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 1</a>
-        </div>
+      <div class="form-group">
+        <label for="buscarPlantas">Buscar Plantas:</label>
+        <input type="text" class="form-control" id="buscarPlantas" placeholder="Escribe el nombre de la planta">
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card">
-        <img src="card2.jpg" class="card-img-top" alt="Card 2">
-        <div class="card-body">
-          <h5 class="card-title">Card 2</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 2</a>
-        </div>
+      <div class="form-group">
+        <label for="filtroEnfermedad">Filtrar por Enfermedad:</label>
+        <select class="form-control" id="filtroEnfermedad">
+          <option value="">Selecciona una enfermedad</option>
+          <option value="enf1">Enfermedad 1</option>
+          <option value="enf2">Enfermedad 2</option>
+          <option value="enf3">Enfermedad 3</option>
+        </select>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card">
-        <img src="card3.jpg" class="card-img-top" alt="Card 3">
-        <div class="card-body">
-          <h5 class="card-title">Card 3</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 3</a>
-        </div>
+      <div class="form-group">
+        <label for="filtroPatogeno">Filtrar por Patógeno:</label>
+        <select class="form-control" id="filtroPatogeno">
+          <option value="">Selecciona un patógeno</option>
+          <option value="pat1">Patógeno 1</option>
+          <option value="pat2">Patógeno 2</option>
+          <option value="pat3">Patógeno 3</option>
+        </select>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card4.jpg" class="card-img-top" alt="Card 4">
-        <div class="card-body">
-          <h5 class="card-title">Card 4</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 4</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card5.jpg" class="card-img-top" alt="Card 5">
-        <div class="card-body">
-          <h5 class="card-title">Card 5</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 5</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card6.jpg" class="card-img-top" alt="Card 6">
-        <div class="card-body">
-          <h5 class="card-title">Card 6</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 6</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card7.jpg" class="card-img-top" alt="Card 7">
-        <div class="card-body">
-          <h5 class="card-title">Card 7 </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 7</a>
-        </div>
-      </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card7.jpg" class="card-img-top" alt="Card 7">
-        <div class="card-body">
-          <h5 class="card-title">Card 7 </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 7</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card">
-        <img src="card7.jpg" class="card-img-top" alt="Card 7">
-        <div class="card-body">
-          <h5 class="card-title">Card 7 </h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go to Card 7</a>
-        </div>
-      </div>
-    </div>
+  <!-- Targetas con la información de las plantas -->
+  <div class="row" id="resultadosBusqueda">
+    <!-- Aquí se agregarán las tarjetas con la información de las plantas buscadas -->
   </div>
+</div>
 <!-- fin cards -->
 
 
